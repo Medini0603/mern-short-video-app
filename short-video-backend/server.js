@@ -5,8 +5,8 @@ import Cors from 'cors';
 const app = express();
 const port = process.env.PORT || 9000;
 
-const uri = "mongodb+srv://medu0603:ioG0F3S8lS4zlgGF@clusternew.o2zszj2.mongodb.net/?retryWrites=true&w=majority";
-const databaseName = "shortvideodb"; // Replace 'mydatabase' with your actual database name
+const uri = "mongodb+srv://medu0603:pw/?retryWrites=true&w=majority";
+const databaseName = "shortvideodb"; 
 
 const client = new MongoClient(uri, {
   serverApi: {
