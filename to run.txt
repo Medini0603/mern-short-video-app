@@ -1,0 +1,5 @@
+open terminal in backend
+nodemon start
+
+open terminal in frontend 
+npm start

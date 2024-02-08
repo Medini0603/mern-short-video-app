@@ -20,7 +20,10 @@ function App() {
   return (
     <div className="App">
      <div className='app_videos'>
-      {/* <Video 
+
+      {/* this is to add data statically in container in docker container  */}
+      {/* you can also use dataSeed.js */}
+      <Video 
       url="https://static.videezy.com/system/resources/previews/000/043/120/original/C0014.mp4"
       channel="aesthetic edits"
       description="Peaceful Ocean edit"
@@ -33,8 +36,12 @@ function App() {
       description="Peaceful Mountain edit"
       likes={345}
       shares={120}
-      messages={90}/> */}
-      {videos.map(({url,channel,description,likes,shares,messages})=>(
+      messages={90}/>
+
+      {/* uncomment the below to get data from mongodb in local machine */}
+
+
+      {/* {videos.map(({url,channel,description,likes,shares,messages})=>(
         <Video
         key={url}
         url={url}
@@ -44,7 +51,7 @@ function App() {
         shares={shares}
         messages={messages}
         />
-      ))}
+      ))} */}
      
      </div>
     </div>

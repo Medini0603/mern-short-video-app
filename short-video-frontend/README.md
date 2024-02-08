@@ -1,3 +1,10 @@
+# Check /App.js/ in short-video-frontend to know the difference between Docker and local running
+
+## to run locally run `nodemon start` (in short-video-backend terminal)
+
+## to run locally run `npm start` (in short-video-frontend terminal)
+
+# output at `localhost:3000`
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
